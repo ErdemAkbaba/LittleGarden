@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77b9007d02f2a744a972832f6c14cf8, type: 3}
+  m_Name: CantarelSeed
+  m_EditorClassIdentifier: 
+  cardID: MS_2
+  spawnPreviewMesh: {fileID: -2432090755550338912, guid: c063b2216d4519940a23460bffbf2ff0, type: 3}
+  currentCardType: 1
+  recipe: {fileID: 0}
+  placedObjectTypeSO: {fileID: 0}
+  reputationValue: 0
+  isNotPlantableCard: 0
+  isMergable: 1
+  isRestaurantCard: 0
+  name: CantarelSeed
+  description: PlantAXOnWetSoil
+  unlockLevel: 6
+  requestTileStatus: 3
+  icon: {fileID: 21300000, guid: 28f7b4e48cbb1b04581cd100db180f79, type: 3}
+  spawnObject: {fileID: 1497612814921863943, guid: 886d1a5265273df4eb37d5faea94f470, type: 3}
+  cardBackColor: {r: 0.24313726, g: 0.8666667, b: 0.46666667, a: 1}
+  spawnDay: 0
+  cardValue: 5
+  price: 65
+  priceRate: 20
+  targetTiles:
+  - coordinate: {x: 1, y: 0}
+  - coordinate: {x: -1, y: 0}
+  ownedBuffs:
+  - {fileID: 8552655024301061741, guid: e992b100d409ce64f8727464337c6a62, type: 3}

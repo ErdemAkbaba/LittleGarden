@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c87cd50e13a2db47a3a2cfe45b45009, type: 3}
+  m_Name: MushroomSalad
+  m_EditorClassIdentifier: 
+  recipeId: 13
+  recipeName: MushroomSalad
+  recipeIcon: {fileID: 21300000, guid: 6fe069cb8f1bfd444b313c616ddd47ec, type: 3}
+  recipeDescription: MushroomSalad
+  requestCards:
+  - count: 2
+    requestCard: {fileID: 11400000, guid: a1eb8db062e0d784c80597e1363b47f7, type: 2}
+  - count: 1
+    requestCard: {fileID: 11400000, guid: 43f5ce701a554a94db43b91cd56b8f68, type: 2}
+  - count: 1
+    requestCard: {fileID: 11400000, guid: df95ec50816527e4b94dbd6b6b6172f9, type: 2}
+  - count: 2
+    requestCard: {fileID: 11400000, guid: d584e5f3feafb534f85d5feef520c4ef, type: 2}
+  - count: 2
+    requestCard: {fileID: 11400000, guid: 8be9f4bc4b729954ca657889a70940ca, type: 2}
+  - count: 1
+    requestCard: {fileID: 11400000, guid: b33a7622213173d41ba856112ad86daa, type: 2}
+  - count: 2
+    requestCard: {fileID: 11400000, guid: 5e8b24fc76b1a7746905ded8f830ed1a, type: 2}
+  - count: 2
+    requestCard: {fileID: 11400000, guid: 6a95530667fe4e64cadad2c7799b270b, type: 2}
+  resultCardData:
+  - {fileID: 11400000, guid: bfeba389c8693b04ca665856e3315a33, type: 2}
+  unlockLevel: 8
+  exp: 0

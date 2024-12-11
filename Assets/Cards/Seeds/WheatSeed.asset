@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77b9007d02f2a744a972832f6c14cf8, type: 3}
+  m_Name: WheatSeed
+  m_EditorClassIdentifier: 
+  cardID: 2_6
+  spawnPreviewMesh: {fileID: -2432090755550338912, guid: 43833b2b4457c4b74a34faf23ab73048, type: 3}
+  currentCardType: 1
+  recipe: {fileID: 0}
+  placedObjectTypeSO: {fileID: 0}
+  reputationValue: 0
+  isNotPlantableCard: 0
+  isMergable: 1
+  isRestaurantCard: 0
+  name: WheatSeed
+  description: PlantAXOnWetSoil
+  unlockLevel: 1
+  requestTileStatus: 3
+  icon: {fileID: 21300000, guid: 88b90cb5376ddde4ab8337930df788ed, type: 3}
+  spawnObject: {fileID: 1497612814921863943, guid: 5189cb25a1dbb4127bb5931d4e6b9c86, type: 3}
+  cardBackColor: {r: 0.03818085, g: 0.735849, b: 0.12071979, a: 1}
+  spawnDay: 0
+  cardValue: 20
+  price: 15
+  priceRate: 0
+  targetTiles:
+  - coordinate: {x: 0, y: -1}
+  ownedBuffs:
+  - {fileID: 8552655024301061741, guid: 1bbebc60ab78fb54e8a71a34d54e93c4, type: 3}

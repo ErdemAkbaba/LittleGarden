@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5162897936451464530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4745113194283671110}
+  - component: {fileID: 5331445411095531210}
+  - component: {fileID: 4201230141146219436}
+  - component: {fileID: 5132311277006912985}
+  - component: {fileID: 6487357400942195680}
+  - component: {fileID: 5518594261917631680}
+  m_Layer: 0
+  m_Name: Silo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4745113194283671110
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5162897936451464530}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -258.6754}
+  m_SizeDelta: {x: 200, y: 0}
+  m_Pivot: {x: 0, y: 1}
+--- !u!222 &5331445411095531210
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5162897936451464530}
+  m_CullTransparentMesh: 1
+--- !u!114 &4201230141146219436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5162897936451464530}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.32156864, g: 0.21176472, b: 0.5764706, a: 0.39215687}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f196065f35d566f46978d4ec2c7699e2, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5132311277006912985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5162897936451464530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 20
+  m_ChildAlignment: 0
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 90, y: 90}
+  m_Spacing: {x: 20, y: 20}
+  m_Constraint: 1
+  m_ConstraintCount: 2
+--- !u!114 &6487357400942195680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5162897936451464530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!114 &5518594261917631680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5162897936451464530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 127b9deabd2397a4da1f88b986afa4d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stockChange:
+    m_PersistentCalls:
+      m_Calls: []
+  stock: []
+  stockUIs: []
+  siloUIParent: {fileID: 4745113194283671110}
+  siloUI: {fileID: 5427067814065469772, guid: 14d550171bff12e48bc0579ee976d900, type: 3}
+  FloorPlants:
+  - floorName: Island
+    allPlants:
+    - {fileID: 11400000, guid: 778cc0b698aac48479b94912c0f051e3, type: 2}
+    - {fileID: 11400000, guid: 43f5ce701a554a94db43b91cd56b8f68, type: 2}
+    - {fileID: 11400000, guid: 85a961b9ee2f41a4482346d3b697fd47, type: 2}
+    - {fileID: 11400000, guid: b7f6736da350da145ac7c2cad2d8ebaf, type: 2}
+    - {fileID: 11400000, guid: 521a7e67b9b585c48900cbbe952bead8, type: 2}
+    - {fileID: 11400000, guid: cc4e752f8127bdd44bab01d0dbc69f04, type: 2}
+    - {fileID: 11400000, guid: 6fcaa6d2fce376b40bc8b1ea73d22921, type: 2}
+    - {fileID: 11400000, guid: 5e8b24fc76b1a7746905ded8f830ed1a, type: 2}
+    - {fileID: 11400000, guid: 3cd9f0a4f311e4244ada0c0e6e66fcb7, type: 2}
+    - {fileID: 11400000, guid: 889079a94ddca6d4e8b6955f69c07bd8, type: 2}
+    - {fileID: 11400000, guid: 602a3b308741bda4a916035537ffa2d6, type: 2}
+    - {fileID: 11400000, guid: df95ec50816527e4b94dbd6b6b6172f9, type: 2}
+    - {fileID: 11400000, guid: 742c7465fcaa6b949808e994767db420, type: 2}
+    - {fileID: 11400000, guid: a75667df3984cfb4ebd73faabe75ef56, type: 2}
+    - {fileID: 11400000, guid: d584e5f3feafb534f85d5feef520c4ef, type: 2}
+  - floorName: Mashroom
+    allPlants:
+    - {fileID: 11400000, guid: a1eb8db062e0d784c80597e1363b47f7, type: 2}
+    - {fileID: 11400000, guid: 6a95530667fe4e64cadad2c7799b270b, type: 2}
+    - {fileID: 11400000, guid: 8be9f4bc4b729954ca657889a70940ca, type: 2}
+    - {fileID: 11400000, guid: d690e81f4b1a14c43b563a4f0b5fafd0, type: 2}
+    - {fileID: 11400000, guid: eee5143cafeb0dd4e8fd8085f675d967, type: 2}
+    - {fileID: 11400000, guid: bbc1b1ba8fc371e4aa8cc9db5e207a05, type: 2}
+    - {fileID: 11400000, guid: 0d0fd99b98e95c6488ed28d4a5f4b0b7, type: 2}
+    - {fileID: 11400000, guid: cb8606f1d8a16f5488f71b241191c89f, type: 2}
+    - {fileID: 11400000, guid: b33a7622213173d41ba856112ad86daa, type: 2}

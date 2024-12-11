@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c87cd50e13a2db47a3a2cfe45b45009, type: 3}
+  m_Name: RoastedPorcini
+  m_EditorClassIdentifier: 
+  recipeId: 15
+  recipeName: OysterSalad
+  recipeIcon: {fileID: 21300000, guid: 9179e518f0467784490b640e3950a752, type: 3}
+  recipeDescription: RoastedPorcini
+  requestCards:
+  - count: 3
+    requestCard: {fileID: 11400000, guid: 0d0fd99b98e95c6488ed28d4a5f4b0b7, type: 2}
+  - count: 1
+    requestCard: {fileID: 11400000, guid: 5e8b24fc76b1a7746905ded8f830ed1a, type: 2}
+  resultCardData:
+  - {fileID: 11400000, guid: ee5da2a0d314f2a498dc93555de60b00, type: 2}
+  unlockLevel: 2
+  exp: 0

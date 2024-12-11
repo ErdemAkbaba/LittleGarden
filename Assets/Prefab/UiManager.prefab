@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5380187810269580981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1683441001195526116}
+  - component: {fileID: 4901869179149253343}
+  m_Layer: 0
+  m_Name: UiManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1683441001195526116
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5380187810269580981}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -753.0449, y: 783.5355, z: -3.4227705}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4901869179149253343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5380187810269580981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8356a5dc6e55a4cac9d44c36703aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiCamera: {fileID: 0}
+  notfyPanel: {fileID: 0}
+  postVolume: {fileID: 0}
+  transitionImage: {fileID: 0}
+  inGameUI: {fileID: 0}
+  mainCanvas: {fileID: 0}
+  cookingPanel: {fileID: 0}
+  hand: {fileID: 0}
+  popupCanvas: {fileID: 287394559636293298, guid: ed12ede8ead8fc24c8d35fc3aab10851, type: 3}
+  hoverPanel: {fileID: 0}
+  reputationHoverPanel: {fileID: 0}
+  tutorialPanel: {fileID: 0}
+  goldAudio: {fileID: 2029161054963689939, guid: 0a3645f40009ae84e93d9327e6cdeac6, type: 3}
+  recipeParent: {fileID: 0}
+  islandNotfyPanel: {fileID: 0}
+  GuidePanel: {fileID: 0}
+  RentPanel: {fileID: 0}
+  newGamePanel: {fileID: 0}
+  returnMenuPanel: {fileID: 0}
+  RentPanelText: {fileID: 0}
+  rentDayDistanceText: {fileID: 0}
+  unlockIsland: {fileID: 0}
+  cloneArrow: {fileID: 0}
+  unlockIslandPriceText: {fileID: 0}
+  dayCounter: {fileID: 0}
+  goldText:
+  - {fileID: 0}
+  - {fileID: 0}
+  hoverText: {fileID: 0}
+  cardCountText: {fileID: 0}
+  unlockPanel: {fileID: 0}
+  hoe: {fileID: 0}
+  wateringCan: {fileID: 0}
+  trowel: {fileID: 0}
+  comboLevelUp: {fileID: 287394559636293298, guid: 5640220a02c724d2986506579a85a166, type: 3}
+  popUpStatic: {fileID: 1606126530977633479, guid: 0b6676653f76fd64fa320ab10ded4f5c, type: 3}
+  goldChangeText: {fileID: 0}
+  shopPanel: {fileID: 0}
+  shopButton: {fileID: 0}
+  shopButtonImage: {fileID: 0}
+  hands:
+  - handTransform: {fileID: 0}
+    handName: Island
+  - handTransform: {fileID: 0}
+    handName: Mashroom
+  - handTransform: {fileID: 0}
+    handName: Restaurant
+  questPrefab: {fileID: 8484592823047484935, guid: 0a39ea941f1bd4f18be83478d95fc163, type: 3}
+  questParent: {fileID: 0}
+  allActiveQuest: []
+  expSpriteRenderer: {fileID: 5394132672346078748, guid: ece140bb31927411ea4f0bb061b6787a, type: 3}
+  farmLevelSlider: {fileID: 0}
+  currentFarmLevelText: {fileID: 0}
+  nextFarmLevelText: {fileID: 0}
+  farmLevelSliderText: {fileID: 0}
+  playButton: {fileID: 0}
+  mainMenuPanel: {fileID: 0}
+  mainMenuCamera: {fileID: 0}
+  inGameCamera: {fileID: 0}
+  dvButton: {fileID: 0}
+  discordButton: {fileID: 0}
+  restaurantWindow: {fileID: 0}
+  restaurantMenu: {fileID: 0}
+  restaurantCustomizedWindow: {fileID: 0}
+  restaurantPanel: {fileID: 0}
+  openRestourantButton: {fileID: 0}
+  timeControlPanel: {fileID: 0}
+  creditsPanel: {fileID: 0}
+  graphicSettingsPanel: {fileID: 0}
+  creditsBtn: {fileID: 0}
+  backBtn: {fileID: 0}
+  settingsDoneBtn: {fileID: 0}
+  closeOnMenu:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  localizationTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  restaurantTransition: {fileID: 0}
+  returnMainMenu: {fileID: 0}

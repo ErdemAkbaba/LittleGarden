@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbcba22296b13cb47a32d6cc5774e255, type: 3}
+  m_Name: Island
+  m_EditorClassIdentifier: 
+  tabs:
+  - buttonIcon: {fileID: 21300000, guid: f4c4b50dba05a99499b53f6b73e968fd, type: 3}
+    buttonName: Seed
+    cards:
+    - {fileID: 11400000, guid: 83fddc9c2812ef146889465bf8de2d43, type: 2}
+    - {fileID: 11400000, guid: 08a5b6ac211c04f4592cf4b5260daf68, type: 2}
+    - {fileID: 11400000, guid: 4982a5d5ce260c3458edcd8307bd69a3, type: 2}
+    - {fileID: 11400000, guid: 7592d793a6e944f4983a8110b5b30d35, type: 2}
+    - {fileID: 11400000, guid: ed43d03153849024fbffac49ef3e949a, type: 2}
+    - {fileID: 11400000, guid: 568a96a720898ff468ddc575426111fa, type: 2}
+    - {fileID: 11400000, guid: 0d1cec575e19cde44a82e10db0c775f0, type: 2}
+    - {fileID: 11400000, guid: 5baa23a5600e6494983344e32fbaab59, type: 2}
+    - {fileID: 11400000, guid: 1c4e04ecd27d947498868c98d7f48040, type: 2}
+    - {fileID: 11400000, guid: 4253a578a00933c42af053d7926a8962, type: 2}
+    - {fileID: 11400000, guid: 3e396209ed31abe4aad82c465ae24b47, type: 2}
+    - {fileID: 11400000, guid: 6ada19d0dfefbb34eaa08ba415c7af8d, type: 2}
+    - {fileID: 11400000, guid: 56b8c6c4ce6ae9343a14c60d50c0d06e, type: 2}
+    - {fileID: 11400000, guid: 19c80e5047ba70a458a5503dcd4142e3, type: 2}
+    - {fileID: 11400000, guid: ed09744ed90f5d543ba18eaaf26ddaa7, type: 2}
+  - buttonIcon: {fileID: 21300000, guid: 1442fbb29dd9bdb47b74711ce06df4b1, type: 3}
+    buttonName: Tool
+    cards:
+    - {fileID: 11400000, guid: ad769909a6cb01c4eb008252d2880f81, type: 2}
+    - {fileID: 11400000, guid: 67edd812b6101394eb0799bbe7ef7052, type: 2}
+    - {fileID: 11400000, guid: 01448f14f15c0084f9eea88a6dbae08a, type: 2}
+    - {fileID: 11400000, guid: 9925ef7dc232142e58c041a3a07384c9, type: 2}

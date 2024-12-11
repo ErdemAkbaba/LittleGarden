@@ -1,0 +1,653 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7078307654881414190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2086725330021056292}
+  - component: {fileID: 877080248783449473}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2086725330021056292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7078307654881414190}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2, y: 0.39999998, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 46899331895425153}
+  - {fileID: 5656419431284693430}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &877080248783449473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7078307654881414190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 360798d3e82cc6240b52114c36248642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requestExpPerLevel:
+  - farmLevel: 2
+    requestExp: 300
+  - farmLevel: 3
+    requestExp: 600
+  - farmLevel: 4
+    requestExp: 900
+  - farmLevel: 5
+    requestExp: 1600
+  - farmLevel: 6
+    requestExp: 2100
+  - farmLevel: 7
+    requestExp: 3000
+  - farmLevel: 8
+    requestExp: 3800
+  - farmLevel: 9
+    requestExp: 6810
+  - farmLevel: 10
+    requestExp: 12000
+  - farmLevel: 11
+    requestExp: 21600
+  activeCard: {fileID: 0}
+  mouseClicked:
+    m_PersistentCalls:
+      m_Calls: []
+  nextDay:
+    m_PersistentCalls:
+      m_Calls: []
+  tileChange:
+    m_PersistentCalls:
+      m_Calls: []
+  handCardsChange:
+    m_PersistentCalls:
+      m_Calls: []
+  unlockedIsland:
+    m_PersistentCalls:
+      m_Calls: []
+  farmLevelUp:
+    m_PersistentCalls:
+      m_Calls: []
+  isActive: 0
+  trashPlant: {fileID: 1497612814921863943, guid: 3dfa00dcb40ee4316a54042b8040c594, type: 3}
+  gold: 300
+  RemovebleObjects: {fileID: 0}
+  bigIslandDatas:
+  - name: Island
+    tileParts: []
+    islands:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    floorIndex: 0
+  - name: Mashroom
+    tileParts: []
+    islands:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    floorIndex: 1
+  - name: Restaurant
+    tileParts: []
+    islands:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    floorIndex: 2
+  levels:
+  - unlocedCards:
+    - {fileID: 11400000, guid: 1c4e04ecd27d947498868c98d7f48040, type: 2}
+    - {fileID: 11400000, guid: 87489355e56f5ce41a5c64141969fe5d, type: 2}
+    - {fileID: 11400000, guid: 7688bbd540e06474f82eac863e8a4be3, type: 2}
+    requesLevel: 2
+  - unlocedCards:
+    - {fileID: 11400000, guid: 568a96a720898ff468ddc575426111fa, type: 2}
+    - {fileID: 11400000, guid: 43ad5e98be186cf4a80dc3b414d8350c, type: 2}
+    requesLevel: 3
+  - unlocedCards:
+    - {fileID: 11400000, guid: 08a5b6ac211c04f4592cf4b5260daf68, type: 2}
+    - {fileID: 11400000, guid: ad769909a6cb01c4eb008252d2880f81, type: 2}
+    - {fileID: 11400000, guid: 6495b08457c54fd49b42d59ccae66057, type: 2}
+    requesLevel: 4
+  - unlocedCards:
+    - {fileID: 11400000, guid: 4982a5d5ce260c3458edcd8307bd69a3, type: 2}
+    requesLevel: 5
+  - unlocedCards:
+    - {fileID: 11400000, guid: 5baa23a5600e6494983344e32fbaab59, type: 2}
+    - {fileID: 11400000, guid: 9925ef7dc232142e58c041a3a07384c9, type: 2}
+    requesLevel: 6
+  - unlocedCards:
+    - {fileID: 11400000, guid: 0d1cec575e19cde44a82e10db0c775f0, type: 2}
+    - {fileID: 11400000, guid: 68d2bd28842ee194b9d5b06b2e946825, type: 2}
+    requesLevel: 7
+  - unlocedCards:
+    - {fileID: 11400000, guid: 7592d793a6e944f4983a8110b5b30d35, type: 2}
+    - {fileID: 11400000, guid: 67edd812b6101394eb0799bbe7ef7052, type: 2}
+    requesLevel: 8
+  - unlocedCards:
+    - {fileID: 11400000, guid: ed43d03153849024fbffac49ef3e949a, type: 2}
+    requesLevel: 9
+  - unlocedCards:
+    - {fileID: 11400000, guid: e35e4d9401335aa4f9d506cfbf14d29e, type: 2}
+    requesLevel: 10
+  - unlocedCards:
+    - {fileID: 11400000, guid: 01448f14f15c0084f9eea88a6dbae08a, type: 2}
+    requesLevel: 11
+  unlockablequests:
+  - questData: {fileID: 11400000, guid: b2270532095765c4c837687578d5bcb8, type: 2}
+    farmLevel: 2
+  farmLevel: 1
+  currentEXP: 0
+  requestExp: 100
+  tilePartStatus:
+  - bigIslandName: Island
+    tileParts:
+    - tilePartMesh: {fileID: -2432090755550338912, guid: 9c2acdccd7bb60e49ad801dff427c97e, type: 3}
+      tilePartName: Light
+      explosionColor: {r: 0, g: 0, b: 0, a: 0}
+      material: {fileID: 0}
+    - tilePartMesh: {fileID: -2432090755550338912, guid: c985e4bdbd5309d46b36eb164e0bd0d2, type: 3}
+      tilePartName: Dark
+      explosionColor: {r: 0, g: 0, b: 0, a: 0}
+      material: {fileID: 0}
+    - tilePartMesh: {fileID: -2432090755550338912, guid: fa88ad3da2f54fc4dbf5f5b115bcc4f8, type: 3}
+      tilePartName: Plowed
+      explosionColor: {r: 0, g: 0, b: 0, a: 0}
+      material: {fileID: 0}
+    - tilePartMesh: {fileID: -2432090755550338912, guid: 54482fa37accd1440ad62fe3996561a5, type: 3}
+      tilePartName: Wet
+      explosionColor: {r: 0, g: 0, b: 0, a: 0}
+      material: {fileID: 0}
+  - bigIslandName: Mashroom
+    tileParts:
+    - tilePartMesh: {fileID: -2432090755550338912, guid: 03bf55653f64dea45b99ad0c2dfb97fa, type: 3}
+      tilePartName: Light
+      explosionColor: {r: 0, g: 0, b: 0, a: 0}
+      material: {fileID: 0}
+    - tilePartMesh: {fileID: -2432090755550338912, guid: c5134f2bb7aa10348ad6b8afcfa0731b, type: 3}
+      tilePartName: Dark
+      explosionColor: {r: 0, g: 0, b: 0, a: 0}
+      material: {fileID: 0}
+    - tilePartMesh: {fileID: -2432090755550338912, guid: 4e90ae56f81542a4c8749a2b5540ef6d, type: 3}
+      tilePartName: Plowed
+      explosionColor: {r: 0, g: 0, b: 0, a: 0}
+      material: {fileID: 0}
+    - tilePartMesh: {fileID: -2432090755550338912, guid: 74a4e84b64786c546bef0959b5cb6381, type: 3}
+      tilePartName: Wet
+      explosionColor: {r: 0, g: 0, b: 0, a: 0}
+      material: {fileID: 0}
+  - bigIslandName: Restaurant
+    tileParts:
+    - tilePartMesh: {fileID: -2432090755550338912, guid: 03bf55653f64dea45b99ad0c2dfb97fa, type: 3}
+      tilePartName: Light
+      explosionColor: {r: 0, g: 0, b: 0, a: 0}
+      material: {fileID: 0}
+    - tilePartMesh: {fileID: -2432090755550338912, guid: c5134f2bb7aa10348ad6b8afcfa0731b, type: 3}
+      tilePartName: Dark
+      explosionColor: {r: 0, g: 0, b: 0, a: 0}
+      material: {fileID: 0}
+    - tilePartMesh: {fileID: -2432090755550338912, guid: 4e90ae56f81542a4c8749a2b5540ef6d, type: 3}
+      tilePartName: Plowed
+      explosionColor: {r: 0, g: 0, b: 0, a: 0}
+      material: {fileID: 0}
+    - tilePartMesh: {fileID: -2432090755550338912, guid: 74a4e84b64786c546bef0959b5cb6381, type: 3}
+      tilePartName: Wet
+      explosionColor: {r: 0, g: 0, b: 0, a: 0}
+      material: {fileID: 0}
+  spawnedTiles:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  activeTiles: []
+  currentTilePart: {fileID: 0}
+  currentSpawnClone: {fileID: 0}
+  explosionFX: {fileID: 7790556339697992375, guid: df55155948503064abfe71dd46ab8ef8, type: 3}
+  waterFX: {fileID: 9182303241209226994, guid: f4a5372864c591c469666a524d401096, type: 3}
+  plantFX: {fileID: 7790556339697992375, guid: 7b37e4ade99ac9c488aeadc3eed3b0f3, type: 3}
+  harvestFX: {fileID: 7790556339697992375, guid: e3ab376bd0ae9024ea15ab6c170be878, type: 3}
+  debuffs:
+  - {fileID: 3074865547648641820, guid: 718ed79038bdeac45829d07c7336ac76, type: 3}
+  plants: []
+  spawnableCards:
+  - {fileID: 11400000, guid: 83fddc9c2812ef146889465bf8de2d43, type: 2}
+  spawnableQuests:
+  - {fileID: 11400000, guid: 984a95ef39c1657429828bcd68bc6189, type: 2}
+  cardCover: {fileID: 8499803925729480294, guid: c42d0c5dfecafb746b57e3dab0267396, type: 3}
+  cards:
+  - {fileID: 11400000, guid: 778cc0b698aac48479b94912c0f051e3, type: 2}
+  - {fileID: 11400000, guid: 85a961b9ee2f41a4482346d3b697fd47, type: 2}
+  - {fileID: 11400000, guid: cc4e752f8127bdd44bab01d0dbc69f04, type: 2}
+  spawnedCards: []
+  AllCards:
+  - {fileID: 11400000, guid: 778cc0b698aac48479b94912c0f051e3, type: 2}
+  - {fileID: 11400000, guid: 43f5ce701a554a94db43b91cd56b8f68, type: 2}
+  - {fileID: 11400000, guid: 85a961b9ee2f41a4482346d3b697fd47, type: 2}
+  - {fileID: 11400000, guid: b7f6736da350da145ac7c2cad2d8ebaf, type: 2}
+  - {fileID: 11400000, guid: 521a7e67b9b585c48900cbbe952bead8, type: 2}
+  - {fileID: 11400000, guid: cc4e752f8127bdd44bab01d0dbc69f04, type: 2}
+  - {fileID: 11400000, guid: 6fcaa6d2fce376b40bc8b1ea73d22921, type: 2}
+  - {fileID: 11400000, guid: 5e8b24fc76b1a7746905ded8f830ed1a, type: 2}
+  - {fileID: 11400000, guid: 3cd9f0a4f311e4244ada0c0e6e66fcb7, type: 2}
+  - {fileID: 11400000, guid: 055a7e6984d57364f8ed91d8c6469826, type: 2}
+  - {fileID: 11400000, guid: e35e4d9401335aa4f9d506cfbf14d29e, type: 2}
+  - {fileID: 11400000, guid: 87489355e56f5ce41a5c64141969fe5d, type: 2}
+  - {fileID: 11400000, guid: 7688bbd540e06474f82eac863e8a4be3, type: 2}
+  - {fileID: 11400000, guid: 43ad5e98be186cf4a80dc3b414d8350c, type: 2}
+  - {fileID: 11400000, guid: 6495b08457c54fd49b42d59ccae66057, type: 2}
+  - {fileID: 11400000, guid: 68d2bd28842ee194b9d5b06b2e946825, type: 2}
+  - {fileID: 11400000, guid: aa4b8dd96a902e5419e52905cb7ab97e, type: 2}
+  - {fileID: 11400000, guid: b082274e4b61f2442aec18ad2542a216, type: 2}
+  - {fileID: 11400000, guid: 9c2cad78da8227d41abd3b45d786d882, type: 2}
+  - {fileID: 11400000, guid: 83fddc9c2812ef146889465bf8de2d43, type: 2}
+  - {fileID: 11400000, guid: 08a5b6ac211c04f4592cf4b5260daf68, type: 2}
+  - {fileID: 11400000, guid: 4982a5d5ce260c3458edcd8307bd69a3, type: 2}
+  - {fileID: 11400000, guid: 7592d793a6e944f4983a8110b5b30d35, type: 2}
+  - {fileID: 11400000, guid: ed43d03153849024fbffac49ef3e949a, type: 2}
+  - {fileID: 11400000, guid: 568a96a720898ff468ddc575426111fa, type: 2}
+  - {fileID: 11400000, guid: 0d1cec575e19cde44a82e10db0c775f0, type: 2}
+  - {fileID: 11400000, guid: 5baa23a5600e6494983344e32fbaab59, type: 2}
+  - {fileID: 11400000, guid: 1c4e04ecd27d947498868c98d7f48040, type: 2}
+  - {fileID: 11400000, guid: ad769909a6cb01c4eb008252d2880f81, type: 2}
+  - {fileID: 11400000, guid: 67edd812b6101394eb0799bbe7ef7052, type: 2}
+  - {fileID: 11400000, guid: 01448f14f15c0084f9eea88a6dbae08a, type: 2}
+  - {fileID: 11400000, guid: 9925ef7dc232142e58c041a3a07384c9, type: 2}
+  maksCardValue: 10
+  toolSpawnRate: 96
+  buildingSpawnRate: 100
+  seedSpawnRate: 92
+  maksQuestSize: 3
+  worms: {fileID: 1497612814921863943, guid: 718ed79038bdeac45829d07c7336ac76, type: 3}
+  rents:
+  - farmLevel: 1
+    rentPrice: 20
+  - farmLevel: 2
+    rentPrice: 30
+  - farmLevel: 3
+    rentPrice: 45
+  - farmLevel: 4
+    rentPrice: 70
+  - farmLevel: 5
+    rentPrice: 105
+  - farmLevel: 6
+    rentPrice: 160
+  - farmLevel: 7
+    rentPrice: 240
+  - farmLevel: 8
+    rentPrice: 360
+  - farmLevel: 9
+    rentPrice: 540
+  - farmLevel: 10
+    rentPrice: 810
+  - farmLevel: 11
+    rentPrice: 1215
+  baseRentDayDistance: 5
+  currentRentDayDistance: 5
+  islands:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!1 &7632455249591631952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5656419431284693430}
+  m_Layer: 0
+  m_Name: RestaurantManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5656419431284693430
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7632455249591631952}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2086725330021056292}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7797858675006640731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 46899331895425153}
+  - component: {fileID: 8163510047625491354}
+  m_Layer: 0
+  m_Name: Silo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &46899331895425153
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7797858675006640731}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2086725330021056292}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8163510047625491354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7797858675006640731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 127b9deabd2397a4da1f88b986afa4d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stockChange:
+    m_PersistentCalls:
+      m_Calls: []
+  stock: []
+  stockUIs: []
+  siloUIParent: {fileID: 0}
+  siloUI: {fileID: 5427067814065469772, guid: 14d550171bff12e48bc0579ee976d900, type: 3}
+  FloorPlants: []
+  itemDatas: []

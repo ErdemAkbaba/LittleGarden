@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c87cd50e13a2db47a3a2cfe45b45009, type: 3}
+  m_Name: BoiledPotato
+  m_EditorClassIdentifier: 
+  recipeId: 18
+  recipeName: BoiledPotato
+  recipeIcon: {fileID: 21300000, guid: be1d3b816036d9f4287bcf388eefbbc9, type: 3}
+  recipeDescription: BoiledPotato
+  requestCards:
+  - count: 3
+    requestCard: {fileID: 11400000, guid: cc4e752f8127bdd44bab01d0dbc69f04, type: 2}
+  resultCardData:
+  - {fileID: 11400000, guid: a34fd2e4c17fd5f45b5208352d3926f6, type: 2}
+  unlockLevel: 3
+  exp: 0

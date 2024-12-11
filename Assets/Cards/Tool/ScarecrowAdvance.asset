@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77b9007d02f2a744a972832f6c14cf8, type: 3}
+  m_Name: ScarecrowAdvance
+  m_EditorClassIdentifier: 
+  cardID: 8_3
+  spawnPreviewMesh: {fileID: -2432090755550338912, guid: c0f54c18d5f5cac45ad65ae98f13ae69, type: 3}
+  currentCardType: 2
+  recipe: {fileID: 0}
+  isNotPlantableCard: 0
+  isMergable: 0
+  name: Scarecrow Advance
+  description: RepelsBirds
+  requestTileStatus: 0
+  icon: {fileID: 21300000, guid: 30f2d0e263a64bd4a823360ca5515ece, type: 3}
+  spawnObject: {fileID: 1497612814921863943, guid: 19c2c7ec7ea8be643b15ac5d49f3c00d, type: 3}
+  cardBackColor: {r: 0.24313726, g: 0.8666667, b: 0.46666667, a: 1}
+  spawnDay: 0
+  cardValue: 150
+  price: 15
+  priceRate: 0
+  targetTiles:
+  - coordinate: {x: 1, y: 0}
+  - coordinate: {x: -1, y: 0}
+  - coordinate: {x: 0, y: -1}
+  - coordinate: {x: 0, y: 1}
+  ownedBuffs: []

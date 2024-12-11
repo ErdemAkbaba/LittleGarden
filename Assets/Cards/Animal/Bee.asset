@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77b9007d02f2a744a972832f6c14cf8, type: 3}
+  m_Name: Bee
+  m_EditorClassIdentifier: 
+  cardID: 7_1
+  spawnPreviewMesh: {fileID: -2432090755550338912, guid: 5e721ae14c6eaa5498532dfd5129957a, type: 3}
+  currentCardType: 6
+  recipe: {fileID: 0}
+  isNotPlantableCard: 0
+  isMergable: 0
+  name: Bee
+  description: BeeDesc
+  requestTileStatus: 99
+  icon: {fileID: 21300000, guid: 9ca54e44cc05f1c498f6196651e77da2, type: 3}
+  spawnObject: {fileID: 1497612814921863943, guid: 01eb2e71e44fdde45a77f94388888127, type: 3}
+  cardBackColor: {r: 0.24313726, g: 0.8666667, b: 0.46666667, a: 1}
+  spawnDay: 0
+  cardValue: 10
+  price: 10
+  priceRate: 0
+  targetTiles: []
+  ownedBuffs: []

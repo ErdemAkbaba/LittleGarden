@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c87cd50e13a2db47a3a2cfe45b45009, type: 3}
+  m_Name: TomatoSoup
+  m_EditorClassIdentifier: 
+  recipeId: 27
+  recipeName: TomatoSoup
+  recipeIcon: {fileID: 21300000, guid: f184363abca1384488e03a439476e788, type: 3}
+  recipeDescription: TomatoSoup
+  requestCards:
+  - count: 4
+    requestCard: {fileID: 11400000, guid: d584e5f3feafb534f85d5feef520c4ef, type: 2}
+  resultCardData:
+  - {fileID: 11400000, guid: e6bf6f4133868244fb9a1c2ddaa3828c, type: 2}
+  unlockLevel: 3
+  exp: 0

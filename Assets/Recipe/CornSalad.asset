@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c87cd50e13a2db47a3a2cfe45b45009, type: 3}
+  m_Name: CornSalad
+  m_EditorClassIdentifier: 
+  recipeId: 19
+  recipeName: CornSalad
+  recipeIcon: {fileID: 21300000, guid: c0ab89418132bcf4d99afbbd3d86d851, type: 3}
+  recipeDescription: CornSalad
+  requestCards:
+  - count: 2
+    requestCard: {fileID: 11400000, guid: 43f5ce701a554a94db43b91cd56b8f68, type: 2}
+  - count: 1
+    requestCard: {fileID: 11400000, guid: 5e8b24fc76b1a7746905ded8f830ed1a, type: 2}
+  resultCardData:
+  - {fileID: 11400000, guid: da559c3616bdc0643a969489b5352ffa, type: 2}
+  unlockLevel: 3
+  exp: 0

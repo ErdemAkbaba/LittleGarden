@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77b9007d02f2a744a972832f6c14cf8, type: 3}
+  m_Name: Cultivated
+  m_EditorClassIdentifier: 
+  cardID: M_2
+  spawnPreviewMesh: {fileID: -2432090755550338912, guid: 10f950ac637b6034e8350ead12a0a80d, type: 3}
+  currentCardType: 0
+  recipe: {fileID: 0}
+  placedObjectTypeSO: {fileID: 0}
+  isNotPlantableCard: 1
+  isMergable: 1
+  isRestaurantCard: 0
+  name: Cultivated
+  description: YouCanUseForMealOrSellIt
+  unlockLevel: 0
+  requestTileStatus: 3
+  icon: {fileID: 21300000, guid: 8fa0fd7079a791d4ebd0418161d1172e, type: 3}
+  spawnObject: {fileID: 1497612814921863943, guid: 52f107749da9ccc4ca1f51f1ff10f8d4, type: 3}
+  cardBackColor: {r: 0.24313726, g: 0.8666667, b: 0.46666667, a: 1}
+  spawnDay: 0
+  cardValue: 5
+  price: 5
+  priceRate: 20
+  targetTiles:
+  - coordinate: {x: 1, y: 0}
+  - coordinate: {x: -1, y: 0}
+  ownedBuffs:
+  - {fileID: 8552655024301061741, guid: e992b100d409ce64f8727464337c6a62, type: 3}

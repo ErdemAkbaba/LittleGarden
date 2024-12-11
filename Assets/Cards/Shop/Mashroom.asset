@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbcba22296b13cb47a32d6cc5774e255, type: 3}
+  m_Name: Mashroom
+  m_EditorClassIdentifier: 
+  tabs:
+  - buttonIcon: {fileID: 21300000, guid: b670fe194dd5bef43993a3402a7f606c, type: 3}
+    buttonName: Mushroom
+    cards:
+    - {fileID: 11400000, guid: ccbd073ee6786534ca381c6939457d65, type: 2}
+    - {fileID: 11400000, guid: 64e61ab7dac1e2446ac1b2fe70010dee, type: 2}
+    - {fileID: 11400000, guid: 2c916937b442595468ca94eff0f9e1d6, type: 2}
+    - {fileID: 11400000, guid: 7a7d02cd0c6979a4aa1b32a0f39f2a6b, type: 2}
+    - {fileID: 11400000, guid: 9fd4a46907b0d224096d50c801367a1f, type: 2}
+    - {fileID: 11400000, guid: b680e3752d34c1e4089cbb2a81133c78, type: 2}
+    - {fileID: 11400000, guid: efc758722ff6b5d41b4a11d2af3aed71, type: 2}
+    - {fileID: 11400000, guid: 6abb45d9c5a258842939ec8ed21d0069, type: 2}
+    - {fileID: 11400000, guid: bd7d0cf4c6082b544a72f5e48e99cc96, type: 2}

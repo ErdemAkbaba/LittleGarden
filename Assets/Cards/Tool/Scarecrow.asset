@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77b9007d02f2a744a972832f6c14cf8, type: 3}
+  m_Name: Scarecrow
+  m_EditorClassIdentifier: 
+  cardID: 8_4
+  spawnPreviewMesh: {fileID: -2432090755550338912, guid: c0f54c18d5f5cac45ad65ae98f13ae69, type: 3}
+  currentCardType: 2
+  recipe: {fileID: 0}
+  isNotPlantableCard: 0
+  isMergable: 0
+  name: Scarecrow
+  description: RepelsBirds
+  requestTileStatus: 0
+  icon: {fileID: 21300000, guid: 13048b1ac28281a498d51fcd9562e633, type: 3}
+  spawnObject: {fileID: 1497612814921863943, guid: ef5090712310c2041b4eea0f2c9debe8, type: 3}
+  cardBackColor: {r: 0.24313726, g: 0.8666667, b: 0.46666667, a: 1}
+  spawnDay: 0
+  cardValue: 42
+  price: 5
+  priceRate: 0
+  targetTiles:
+  - coordinate: {x: 1, y: 0}
+  - coordinate: {x: -1, y: 0}
+  ownedBuffs: []

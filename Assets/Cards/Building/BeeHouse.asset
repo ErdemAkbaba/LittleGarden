@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77b9007d02f2a744a972832f6c14cf8, type: 3}
+  m_Name: BeeHouse
+  m_EditorClassIdentifier: 
+  cardID: 6_1
+  spawnPreviewMesh: {fileID: -2432090755550338912, guid: 4fe090851e3852347870c5f59191d4d5, type: 3}
+  currentCardType: 5
+  recipe: {fileID: 0}
+  isNotPlantableCard: 0
+  isMergable: 0
+  name: 'Beehive '
+  description: BeeHouseDesc
+  requestTileStatus: 0
+  icon: {fileID: 21300000, guid: 57ef7eb482111044598115899870004b, type: 3}
+  spawnObject: {fileID: 1497612814921863943, guid: 4b7d135f4c9b6574e9d30971a603e2be, type: 3}
+  cardBackColor: {r: 0, g: 0, b: 0, a: 0}
+  spawnDay: 0
+  cardValue: 370
+  price: 20
+  priceRate: 0
+  targetTiles: []
+  ownedBuffs: []

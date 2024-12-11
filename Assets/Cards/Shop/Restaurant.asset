@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbcba22296b13cb47a32d6cc5774e255, type: 3}
+  m_Name: Restaurant
+  m_EditorClassIdentifier: 
+  tabs:
+  - buttonIcon: {fileID: 21300000, guid: ab491bdf8411bdc4882e67c72886d572, type: 3}
+    buttonName: Restaurant
+    cards:
+    - {fileID: 11400000, guid: 0eab6426b629d2d40bfda6ef1da41010, type: 2}
+    - {fileID: 11400000, guid: 90427c45eca4e6b4d99ae9ff3085d54e, type: 2}
+    - {fileID: 11400000, guid: 1964b49089f85a04c95d906d763552dc, type: 2}
+    - {fileID: 11400000, guid: f752a1712e8dfaf43aa7f6523fec83a6, type: 2}
+    - {fileID: 11400000, guid: c6bb7c9b2b3385747b9b8f3479e56868, type: 2}
+    - {fileID: 11400000, guid: f434e22a12c42ad45ae663c8754076ff, type: 2}
+    - {fileID: 11400000, guid: a59810e5196ffe94b8a5f8f96609830c, type: 2}
+    - {fileID: 11400000, guid: 871f65fe37a58d447a6a88243bc434c9, type: 2}
+    - {fileID: 11400000, guid: 7a138b0177e22924aa4886ba0c4e803f, type: 2}
+    - {fileID: 11400000, guid: d28429d27155ff948979038049dd5d72, type: 2}
+    - {fileID: 11400000, guid: fa9f42b9632cec8418c3092ee8c0f670, type: 2}
+    - {fileID: 11400000, guid: ef2e1ce9c1eb8a342ba256f31775a246, type: 2}
+    - {fileID: 11400000, guid: 504f4fbe6f8530549931b5b6f4b939c2, type: 2}
+    - {fileID: 11400000, guid: 770d52c3397f3c941badc7a4b433fd42, type: 2}
+    - {fileID: 11400000, guid: 81c8c72e4b927b74684a458afc07c66c, type: 2}
+    - {fileID: 11400000, guid: c816942cfe6d5df4bb81e9bb3dc10ed7, type: 2}
+    - {fileID: 11400000, guid: cdfc06211fbf65648a422c23da7d1772, type: 2}
+    - {fileID: 11400000, guid: 03928ed8da4422f4d9c831621134e4b9, type: 2}
+    - {fileID: 11400000, guid: c18c01044e95b654aab0a1f146a784c1, type: 2}
+    - {fileID: 11400000, guid: 3488b5720593338408105a20920d8058, type: 2}

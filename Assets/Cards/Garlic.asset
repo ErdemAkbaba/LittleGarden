@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77b9007d02f2a744a972832f6c14cf8, type: 3}
+  m_Name: Garlic
+  m_EditorClassIdentifier: 
+  cardID: 1_2
+  spawnPreviewMesh: {fileID: -2432090755550338912, guid: 71d6be5d80c16a64a8f8c37dbb80df08, type: 3}
+  currentCardType: 0
+  recipe: {fileID: 0}
+  placedObjectTypeSO: {fileID: 0}
+  isNotPlantableCard: 1
+  isMergable: 1
+  isRestaurantCard: 0
+  name: Garlic
+  description: YouCanUseForMealOrSellIt
+  unlockLevel: 0
+  requestTileStatus: 3
+  icon: {fileID: 21300000, guid: 6b2002c27f07d9045b632faaa52cc76a, type: 3}
+  spawnObject: {fileID: 1497612814921863943, guid: 66f4064b693f37c419819946d65502e6, type: 3}
+  cardBackColor: {r: 0.17101282, g: 0.5754717, b: 0.31600747, a: 1}
+  spawnDay: 5
+  cardValue: 22
+  price: 0
+  priceRate: 20
+  targetTiles: []
+  ownedBuffs: []

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c87cd50e13a2db47a3a2cfe45b45009, type: 3}
+  m_Name: CornSoup
+  m_EditorClassIdentifier: 
+  recipeId: 20
+  recipeName: CornSoup
+  recipeIcon: {fileID: 21300000, guid: f2e1bf889e34a66458a3b0e510608dcb, type: 3}
+  recipeDescription: CornSoup
+  requestCards:
+  - count: 3
+    requestCard: {fileID: 11400000, guid: 43f5ce701a554a94db43b91cd56b8f68, type: 2}
+  resultCardData:
+  - {fileID: 11400000, guid: eedb544436a33124799146225aaf797f, type: 2}
+  unlockLevel: 3
+  exp: 0

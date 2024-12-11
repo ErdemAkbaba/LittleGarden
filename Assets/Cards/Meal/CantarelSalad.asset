@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77b9007d02f2a744a972832f6c14cf8, type: 3}
+  m_Name: CantarelSalad
+  m_EditorClassIdentifier: 
+  cardID: 3_7
+  spawnPreviewMesh: {fileID: -2432090755550338912, guid: 88ff0dcd88538aa42ae0150e0b45c4c5, type: 3}
+  currentCardType: 4
+  recipe: {fileID: 11400000, guid: 1452a82a668e18a4d977a2ce7e6696f9, type: 2}
+  placedObjectTypeSO: {fileID: 0}
+  reputationValue: 0
+  isNotPlantableCard: 1
+  isMergable: 1
+  isRestaurantCard: 0
+  name: CantarelSalad
+  description: YouCanUseForTheCompleteQuests
+  unlockLevel: 3
+  requestTileStatus: 3
+  icon: {fileID: 21300000, guid: fd0b4f96f28b63344996015bee8a45e8, type: 3}
+  spawnObject: {fileID: 0}
+  cardBackColor: {r: 0.24313726, g: 0.8666667, b: 0.46666667, a: 1}
+  spawnDay: 0
+  cardValue: 10
+  price: 370
+  priceRate: 370
+  targetTiles: []
+  ownedBuffs: []
